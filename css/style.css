@@ -1,5 +1,5 @@
 
-@import url(font.css);
+@import url(fonts.css);
 
 * {
     margin: 0;
@@ -8,3 +8,68 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+/* <!-- Header Part Started --> */
+
+/* header {
+    width: 100%;
+    height: 100%;
+} */
+
+header {
+    /* background-image: url(../img/Vector\ 1.png); */
+    
+    position: relative;
+}
+
+/* <!-- Nav Part --> */
+
+header .nav {
+    width: 90%;
+    padding: 32px 0 0 0;
+    margin: 0 auto;
+}
+
+header .nav .nav__menu ul {
+    font-family: 'Poppins-Regular';
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 34px;
+}
+
+.vector-1 {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: -1;
+    left: 767px;
+}
+
+.dolor {
+    position: relative;
+    /* display: flex; */
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+h1 {
+    font-family: 'Poppins-Regular';
+    font-size: 60px;
+    line-height: 90px;
+}
+
+.p1 {
+    font-family: 'Poppins-Medium';
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 17px;
+}
+
+.image-1 {
+    position: absolute;
+    left: 650px;
+top: -150px;
+}
+
