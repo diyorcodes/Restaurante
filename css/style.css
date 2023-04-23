@@ -105,3 +105,40 @@ header .nav .dolor .image-1 {
     top: -170px;
 }
 
+header .call {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 545px;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.fa-clock, .fa-location-dot, .fa-phone {
+    background-image: linear-gradient(to right, #FF8F28, #FF8F28);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent; 
+    margin-top: 30px;
+    
+}
+
+.card-p {
+    font-family: 'Poppins-Regular';
+    color: #5B5656;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    padding: 0 36px 12px 36px;
+}
+
+.card-a {
+    padding: 30px 100px 60px 100px;
+}
+
