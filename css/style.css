@@ -373,12 +373,86 @@ h3 {
     border-radius: 40px 0px 0px 40px;
     padding: 25px 56px;
     left: 1000px;
-    width: 900px;
+    width: 800px;
 }
 
 .lorem-1 {
     position: relative;
     margin-top: 90px;
+}
+
+.menu {
+    margin-top: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-img {
+    background: #FF8F28;
+    border-radius: 50%;
+    height: 250px;
+    transition: 0.5s;
+}
+
+.menu-img:hover {
+    left: 100px;
+    background: #FF8F28;
+    border-radius: 50%;
+    width: -500px;
+    height: 250px;
+    transform: rotate(42.44deg);
+    transition: 0.5s;
+}
+
+.lorem-4 {
+    position: absolute;
+    font-family: 'Poppins-Regular';
+    color: #EFFFEF;
+    font-size: 30px;
+    line-height: 45px;
+    background: #FF8F28;
+    border-radius: 0px 40px 40px 0px;
+    padding: 25px 56px;
+}
+
+.lorem-3 {
+    position: relative;
+    margin-top: 160px;
+}
+
+.elements {
+    position: relative;
+}
+
+.element1 {
+    position: absolute;
+    background: #FF8F28;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    left: 60px;
+    top: -10px;
+
+}
+
+.element2 {
+    position: absolute;
+    background: #FF8F28;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    left: 100px;
+    top: 20px;
+}
+
+.element3 {
+    position: absolute;
+    background: #FF8F28;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    left: 700px;
+    top: -250px;
 }
 
 
