@@ -521,7 +521,42 @@ h5 {
     width: 100%;
 }
 
-.fa-chevron-left1
+.fa-chevron-left1 {
+    position: relative;
+}
+
+.fa-chevron-left {
+    position: absolute;
+    left: 150px;
+    top: 53px;
+    cursor: pointer;
+    background: #5B5656;
+    background-image: linear-gradient(to right, #5B5656);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.fa-chevron-right1 {
+    position: relative;
+}
+
+.fa-chevron-right {
+    position: absolute;
+    left: 1340px;
+    top: -98px;
+    cursor: pointer;
+    background: #5B5656;
+    background-image: linear-gradient(to right, #5B5656);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
 
 
 
