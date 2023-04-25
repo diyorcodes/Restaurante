@@ -12,14 +12,9 @@
 /* <!-- Header Part Started --> */
 
 header {
-    /* background-image: url(../img/Vector\ 1.png); */
-    
     position: relative;
-
     width: 100%;
     margin: 0 auto;
-
-  
 }
 
 header .vector-1 {
@@ -104,6 +99,8 @@ header .nav .dolor .image-1 {
     top: -170px;
 }
 
+/* <!-- Call Part --> */
+
 header .call {
     display: flex;
     align-items: center;
@@ -150,25 +147,27 @@ header .call .card .card-a {
     padding: 30px 100px 60px 100px;
 }
 
-.main-1 {
+/*  <!-- Main Part --> */
+
+header .main-1 {
     position: relative;
     margin-top: 250px;
 }
 
-.image-2 {
+header .main-1 .image-2 {
     position: absolute;
     left: 50px;
     top: 200px;
 }
 
-h2 {
+header .main-1 h2 {
     font-family: 'Poppins-Regular';
     color: #343434;
     font-size: 60px;
     line-height: 90px;
 }
 
-.main-p1 {
+header .main-1 .main-p1 {
     font-family: 'Poppins-Medium';
     color: #5B5656;
     font-size: 20px;
@@ -176,7 +175,7 @@ h2 {
     margin-top: 30px;
 }
 
-.main-p2 {
+header .main-1 .main-p2 {
     font-family: 'Poppins-Medium';
     color: #5B5656;
     font-size: 20px;
@@ -199,13 +198,15 @@ h2 {
     margin-top: 50px;
 }
 
-.main-2 {
+header .main-1 .main-2 {
     position: absolute;
     left: 700px;
     top: 150px;
     width: 45%;
     margin: 0 auto;
 }
+
+/* <!-- Section Part --> */
 
 .section {
     display: flex;
