@@ -208,15 +208,14 @@ header .main-1 .main-2 {
 
 /* <!-- Section Part --> */
 
-.section {
+header .section {
     display: flex;
     margin-top: 250px;
     background: #FF8F28;
-    /* width: 758px; */
     height: 500px;
 }
 
-.section-card1 {
+header .section .section-card1 {
     width: 28%;
     margin: 0 auto;
 }
@@ -226,7 +225,7 @@ header .main-1 .main-2 {
     height: 500px;
 }
 
-h3 {
+header .section .section-card1 h3 {
     font-family: 'Poppins-Regular';
     color: #EFEFEF;
     font-size: 60px;
@@ -234,7 +233,7 @@ h3 {
     margin-top: 50px;
 }
 
-.section-p {
+header .section .section-card1 .section-p {
     font-family: 'Poppins-Medium';
     color: #FFFFFF;
     font-size: 20px;
@@ -242,7 +241,7 @@ h3 {
     margin-top: 5px;
 }
 
-.section-ipsum-2 {
+header .section .section-card1 .section-ipsum-2 {
     font-family: 'Poppins-SemiBold';
     color: #FFFFFF;
     font-size: 20px;
@@ -253,15 +252,17 @@ h3 {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
 }
 
-.section-ipsum-1 {
+header .section .section-card1 .section-ipsum-1 {
     margin-top: 80px;
 }
 
-.element {
+/* <!-- Element Part --> */
+
+header .element {
     position: relative;
 }
 
-.element-1 {
+header .element .element-1 {
     position: absolute;
     background: #FF8F28;
     border-radius: 50px;
@@ -272,7 +273,7 @@ h3 {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
 }
 
-.element-2 {
+header .element .element-2 {
     position: absolute;
     background: #FF8F28;
     border-radius: 50px;
@@ -283,7 +284,7 @@ h3 {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
 }
 
-.element-3 {
+header .element .element-3 {
     position: absolute;
     background: #FF8F28;
     border-radius: 50px;
@@ -294,7 +295,7 @@ h3 {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
 }
 
-.element-4 {
+header .element .element-4 {
     position: absolute;
     background: #FF8F28;
     border-radius: 50px;
@@ -305,7 +306,7 @@ h3 {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
 }
 
-.element-5 {
+header .element .element-5 {
     position: absolute;
     background: #FF8F28;
     border-radius: 50px;
@@ -318,7 +319,7 @@ h3 {
 
 
 
-.elements-1 {
+header .element .elements-1 {
     position: absolute;
     border: 3px solid #FF8F28;
     left: -15px;
@@ -328,7 +329,7 @@ h3 {
     transform: rotate(-42.44deg);
 }
 
-.elements-2 {
+header .element .elements-2 {
     position: absolute;
     border: 3px solid #FF8F28;
     left: -60px;
@@ -338,7 +339,7 @@ h3 {
     transform: rotate(-42.44deg);
 }
 
-.elements-3 {
+header .element .elements-3 {
     position: absolute;
     border: 3px solid #FF8F28;
     left: -30px;
@@ -348,7 +349,7 @@ h3 {
     transform: rotate(-42.44deg);
 }
 
-.elements-4 {
+header .element .elements-4 {
     position: absolute;
     border: 3px solid #FF8F28;
     left: -40px;
@@ -358,7 +359,7 @@ h3 {
     transform: rotate(-42.44deg);
 }
 
-.elements-5 {
+header .element .elements-5 {
     position: absolute;
     border: 3px solid #FF8F28;
     left: -53px;
@@ -368,7 +369,7 @@ h3 {
     transform: rotate(-42.44deg);
 }
 
-.lorem-2 {
+header .lorem-2 {
     position: absolute;
     font-family: 'Poppins-Regular';
     color: #EFFFEF;
@@ -381,18 +382,20 @@ h3 {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
 }
 
-.lorem-1 {
+header .lorem-1 {
     position: relative;
     margin-top: 90px;
 }
 
-.menu {
+/* <!-- Menu Part --> */
+
+header .menu {
     margin-top: 350px;
     display: flex;
     justify-content: space-around;
 }
 
-.menu-img {
+header .menu .menu-img {
     background: #FF8F28;
     border-radius: 50%;
     height: 250px;
@@ -410,7 +413,7 @@ h3 {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
 }
 
-.lorem-4 {
+header .lorem-4 {
     position: absolute;
     font-family: 'Poppins-Regular';
     color: #EFFFEF;
@@ -422,17 +425,19 @@ h3 {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
 }
 
-.lorem-3 {
+header .lorem-3 {
     position: relative;
     margin-top: 160px;
 
 }
 
-.elements {
+/* <!-- Element Part --> */
+
+header .elements {
     position: relative;
 }
 
-.element1 {
+header .elements .element1 {
     position: absolute;
     background: #FF8F28;
     border-radius: 50px;
