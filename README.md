@@ -1,3 +1,3 @@
-# Restaurante
+# Restaurant
 
 ### An appetizing web site 😁😁😁
