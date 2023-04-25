@@ -449,7 +449,7 @@ header .elements .element1 {
 
 }
 
-.element2 {
+header .elements .element2 {
     position: absolute;
     background: #FF8F28;
     border-radius: 50px;
@@ -460,7 +460,7 @@ header .elements .element1 {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.50);
 }
 
-.element3 {
+header .elements .element3 {
     position: absolute;
     background: #FF8F28;
     border-radius: 50px;
@@ -471,17 +471,18 @@ header .elements .element1 {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.50);
 }
 
-.footer {
-    
+ /* <!-- Footer Part --> */
+
+header .footer {
     margin-top: 500px;
 }
 
-.star {
+header .footer .star {
     display: flex;
     justify-content: center;
 }
+
 .fa-star {
-    
     background: #343434;
     background-image: linear-gradient(to right, #343434);
     background-size: 100%;
@@ -503,7 +504,7 @@ header .elements .element1 {
     transition: 0.3s;
 }
 
-h4 {
+header .footer h4 {
     font-family: 'Poppins-Medium';
     color: #343434;
     font-size: 45px;
@@ -511,10 +512,9 @@ h4 {
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    
 }
 
-.footer-p {
+header .footer .footer-p {
     font-family: 'Poppins-Medium';
     color: #5B5656;
     font-size: 20px;
@@ -525,7 +525,7 @@ h4 {
     text-align: center;
 }
 
-h5 {
+header .footer h5 {
     font-family: 'Poppins-Medium';
     color: #343434;
     font-size: 35px;
@@ -578,6 +578,8 @@ h5 {
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 }
+
+/* <!-- Header Part End --> */
 
 
 
