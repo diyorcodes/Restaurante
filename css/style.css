@@ -397,7 +397,7 @@ h3 {
     transition: 0.5s;
 }
 
-/* .lorem-4 {
+.lorem-4 {
     position: absolute;
     font-family: 'Poppins-Regular';
     color: #EFFFEF;
@@ -412,7 +412,7 @@ h3 {
     position: relative;
     margin-top: 160px;
 
-} */
+}
 
 .elements {
     position: relative;
@@ -451,7 +451,7 @@ h3 {
 
 .footer {
     
-    margin-top: 200px;
+    margin-top: 500px;
 }
 
 .star {
@@ -467,6 +467,18 @@ h3 {
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+    transition: 0.3s;
+}
+
+.fa-star:hover {
+    background: #F2C94C;
+    background-image: linear-gradient(to right, #F2C94C);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    transition: 0.3s;
 }
 
 h4 {
@@ -500,6 +512,16 @@ h5 {
     display: flex;
     justify-content: center;
 }
+
+.footer-vector-1 {
+    margin-top: 200px;
+}
+
+.footer-vector-2 {
+    width: 100%;
+}
+
+.fa-chevron-left1
 
 
 
